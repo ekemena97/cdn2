@@ -14,7 +14,7 @@ jobs:
       run: pwd
 
     - name: Check running docker services
-      run: sudo docker ps
+      run: docker ps
 
     - name: Stop Docker Container
       run: sudo docker stop csn-nginx || true
